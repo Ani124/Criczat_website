@@ -1,0 +1,65 @@
+
+.button-group{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button-group button{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(58, 58, 58);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0px 3px;
+}
+.button-group button:hover{
+    background-color: black;
+    color: white;
+}
+.post-section{
+    margin-bottom: 400px;
+}
+.post-main{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+@media only screen and (max-width: 600px){
+    .posts{
+        max-width: 350px !important;
+        min-width: 350px !important;
+    }
+}
+.posts{
+    min-width: 650px;
+    max-width: 650px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    
+}
+
+#post-giver{
+    color: blue;
+}
+
+.post-section #textarea{
+    resize: none;
+    width: 100%;
+    padding: 10px;
+}
+#post_button{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(58, 58, 58);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0px 3px;
+}
+
+
